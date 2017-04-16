@@ -1,6 +1,6 @@
 {
-  "name": "admin-on-rest",
-  "version": "0.9.4",
+  "name": "admin-on-rest-next",
+  "version": "0.9.8",
   "description": "A frontend Framework for building admin applications on top of REST services, using ES6, React and Material UI",
   "files": [
     "*.md",
@@ -19,6 +19,22 @@
   "homepage": "https://github.com/marmelab/admin-on-rest#readme",
   "bugs": "https://github.com/marmelab/admin-on-rest/issues",
   "license": "MIT",
+  "peerDependencies": {
+    "react": "~15.4.0",
+    "react-dom": "~15.4.0",
+    "inflection": "~1.10.0",
+    "react-dropzone": "~3.6.0",
+    "react-redux": "~4.4.5",
+    "material-ui": "~0.16.5",
+    "react-router": "~2.8.1",
+    "react-router-redux": "~4.0.6",
+    "react-tap-event-plugin": "~2.0.0",
+    "recompose": "~0.21.2",
+    "redux": "~3.6.0",
+    "redux-form": "~6.2.0",
+    "redux-saga": "~0.14.2",
+    "reselect": "~2.5.4"
+  },
   "devDependencies": {
     "babel-cli": "~6.18.0",
     "babel-core": "~6.18.2",
@@ -51,24 +67,10 @@
   },
   "dependencies": {
     "babel-runtime": "~6.18.0",
-    "inflection": "~1.10.0",
     "lodash.debounce": "~4.0.8",
     "lodash.defaultsdeep": "~4.6.0",
     "lodash.get": "~4.4.2",
     "lodash.set": "~4.3.2",
-    "material-ui": "~0.16.5",
-    "node-polyglot": "2.2.2",
-    "react": "~15.4.0",
-    "react-dom": "~15.4.0",
-    "react-dropzone": "~3.6.0",
-    "react-redux": "~4.4.5",
-    "react-router": "~2.8.1",
-    "react-router-redux": "~4.0.6",
-    "react-tap-event-plugin": "~2.0.0",
-    "recompose": "~0.21.2",
-    "redux": "~3.6.0",
-    "redux-form": "~6.2.0",
-    "redux-saga": "~0.14.2",
-    "reselect": "~2.5.4"
+    "node-polyglot": "2.2.2"
   }
 }
